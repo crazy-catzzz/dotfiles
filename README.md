@@ -11,6 +11,9 @@ Currently, my configuration consists of:
 Other installed packages:
 
 - oh-my-zsh
+- zsh-autocomplete
+- zsh-autosuggestions
+- zsh-syntax-highlighting
 - gnome-tweaks
 - extension-manager
 - gdm-settings
