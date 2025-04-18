@@ -7,6 +7,10 @@ Currently, these packages are being tracked:
 - ZSH
 - Kitty
 
+Other installed packages:
+
+- Oh My ZSH
+
 # Installation
 
 To install the files, clone the repository and create an alias to use a different folder for the repo while mantaining the work tree in `$HOME`:
