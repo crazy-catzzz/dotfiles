@@ -25,6 +25,10 @@ GNOME extensions:
 - [Quick Settings Tweaks](https://github.com/qwreey/quick-settings-tweaks)
 - [Top Bar Organizer](https://gitlab.gnome.org/june/top-bar-organizer)
 
+## Screenshots
+![Screenshot 1](https://drive.google.com/uc?export=view&id=1T7NiD9rgh-5qAxdNP8tVTJwE7oQcwECY)
+![Screenshot 2](https://drive.google.com/uc?export=view&id=1RGxlj61wv863T_y8VuJ-cQw2kAGfY_pU)
+
 ## Installation
 
 To install the files, clone the repository and create an alias to use a different folder for the repo while mantaining the work tree in `$HOME`:
