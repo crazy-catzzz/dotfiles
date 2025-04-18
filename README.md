@@ -2,16 +2,30 @@
 
 My configuration files.
 
-Currently, these packages are being tracked:
+Currently, my configuration consists of:
 
-- ZSH
-- Kitty
+- Shell: ZSH
+- Terminal emulator: Kitty
+- DE: GNOME with extensions
 
 Other installed packages:
 
-- Oh My ZSH
+- oh-my-zsh
+- gnome-tweaks
+- extension-manager
+- gdm-settings
 
-# Installation
+GNOME extensions:
+
+- [AppIndicator and KStatusNotifier Support](https://github.com/ubuntu/gnome-shell-extension-appindicator)
+- [Blur my Shell](https://github.com/aunetx/blur-my-shell)
+- [Dash to Dock](https://github.com/micheleg/dash-to-dock)
+- [Forge](https://github.com/forge-ext/forge)
+- [GNOME 4x UI Improvements](https://github.com/axxapy/gnome-ui-tune)
+- [Quick Settings Tweaks](https://github.com/qwreey/quick-settings-tweaks)
+- [Top Bar Organizer](https://gitlab.gnome.org/june/top-bar-organizer)
+
+## Installation
 
 To install the files, clone the repository and create an alias to use a different folder for the repo while mantaining the work tree in `$HOME`:
 
@@ -25,3 +39,9 @@ Once that is done, you can easily install by running:
 ```sh
 $ dotfiles checkout
 ```
+
+## Credits
+
+GTK Theme: [Everforest GTK Theme](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme)
+
+Dotfiles management method: [Archwiki: Tracking dotfiles directly with git](https://wiki.archlinux.org/title/Dotfiles#Tracking_dotfiles_directly_with_Git)
