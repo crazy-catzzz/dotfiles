@@ -15,19 +15,23 @@ vim.keymap.set('n', '<leader>ph', ':Pick help<CR>')         -- Pick help
 vim.keymap.set('n', '<leader>ef', ':Oil<CR>')               -- Edit filesystem
 vim.keymap.set('n', '<leader>s', ':update<CR>')             -- Save
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float) -- Show diagnostics
+vim.keymap.set('n', '<leader>q', ':quit<CR>')               -- Quit
+vim.keymap.set('n', '<leader>mp', ':MarkdownPreview<CR>')   -- Preview Markdown files
 
--- PACKAGES
+-- PLUGINS
 vim.pack.add({
 	{ src = 'https://github.com/sainnhe/everforest' },
 	{ src = 'https://github.com/neovim/nvim-lspconfig' },
 	{ src = 'https://github.com/nvim-mini/mini.pick' },
 	{ src = 'https://github.com/stevearc/oil.nvim' },
+	{ src = 'https://github.com/iamcco/markdown-preview.nvim' },
 })
 require "mini.pick".setup()
 require "oil".setup()
+vim.cmd("call mkdp#util#install()")
 
 -- LSP
-vim.lsp.enable({ 'lua_ls', 'clangd' })
+vim.lsp.enable({ 'lua_ls', 'clangd', 'jdtls', 'cmake'})
 
 -- COLORSCHEME
 vim.cmd("colorscheme everforest")
